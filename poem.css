@@ -20,3 +20,10 @@
 html{
     min-height: 100%;
 }
+
+.strokeText{
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    
+}

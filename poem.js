@@ -25,6 +25,8 @@ function WriteToMain(poemArray)
     var lineNode = document.createElement('span');
     lineNode.innerHTML = GetLine(poem1Array);
     document.getElementById("main").appendChild(lineNode);
+    lineNode.scrollIntoView();
+    lineNode.className = "strokeText";
    // RefreshGradient();
     //ChangeColorText();
 }
